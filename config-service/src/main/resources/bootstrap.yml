@@ -7,10 +7,10 @@ spring:
       server:
         git:
           uri: https://github.com/AsterotthCR/ElderCareProject.git
-          search-paths: config-data
           username: ${GIT_USER}
           password: ${GIT_PASSWORD}
+          search-paths: config-data
   security:
     user:
-      name: ${CONFIG-USER}
-      password: ${CONFIG-PASSWORD}
+      name: ${CONFIG_USER}
+      password: ${CONFIG_PASSWORD}
